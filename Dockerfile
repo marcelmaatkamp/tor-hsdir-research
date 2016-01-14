@@ -5,5 +5,5 @@ WORKDIR tor-hsdir-research
 
 RUN ./autogen.sh && ./configure --disable-asciidoc && make && make install && make dist-gzip
 ADD torrc /etc/tor/torrc
-EXPOSE 9001 9050
+EXPOSE 9001 9002 9050 
 CMD tor -f /etc/tor/torrc
