@@ -1,0 +1,428 @@
+Jan 14 19:12:36.000 [notice] Tor 0.2.5.0-alpha-dev (git-c0333031b71d9165) opening new log file.
+Jan 14 19:12:36.000 [debug] tor_disable_debugger_attach(): Attemping to disable debugger attachment to Tor for unprivileged users.
+Jan 14 19:12:36.000 [debug] tor_disable_debugger_attach(): Debugger attachment disabled for unprivileged users.
+Jan 14 19:12:36.000 [info] tor_lockfile_lock(): Locking "/root/.tor/lock"
+Jan 14 19:12:36.000 [debug] parse_dir_authority_line(): Trusted 100 dirserver at 128.31.0.39:9131 (9695)
+Jan 14 19:12:36.000 [debug] parse_dir_authority_line(): Trusted 111 dirserver at 86.59.21.38:80 (847B)
+Jan 14 19:12:36.000 [debug] parse_dir_authority_line(): Trusted 102 dirserver at 194.109.206.212:80 (7EA6)
+Jan 14 19:12:36.000 [debug] parse_dir_authority_line(): Trusted 16 dirserver at 82.94.251.203:80 (4A0C)
+Jan 14 19:12:36.000 [debug] parse_dir_authority_line(): Trusted 100 dirserver at 76.73.17.194:9030 (F397)
+Jan 14 19:12:36.000 [debug] parse_dir_authority_line(): Trusted 100 dirserver at 212.112.245.170:80 (F204)
+Jan 14 19:12:36.000 [debug] parse_dir_authority_line(): Trusted 100 dirserver at 193.23.244.244:80 (7BE6)
+Jan 14 19:12:36.000 [debug] parse_dir_authority_line(): Trusted 100 dirserver at 208.83.223.34:443 (0AD3)
+Jan 14 19:12:36.000 [debug] parse_dir_authority_line(): Trusted 100 dirserver at 171.25.193.9:443 (BD6A)
+Jan 14 19:12:36.000 [debug] parse_dir_authority_line(): Trusted 100 dirserver at 154.35.32.5:80 (CF6D)
+Jan 14 19:12:36.000 [info] or_state_load(): Initialized state
+Jan 14 19:12:36.000 [debug] circuit_build_times_disabled(): CircuitBuildTime learning is not disabled. Consensus=0, Config=0, AuthDir=0, StateFile=0
+Jan 14 19:12:36.000 [debug] circuit_build_times_disabled(): CircuitBuildTime learning is not disabled. Consensus=0, Config=0, AuthDir=0, StateFile=0
+Jan 14 19:12:36.000 [info] circuit_build_times_parse_state(): Adding 0 timeouts.
+Jan 14 19:12:36.000 [info] circuit_build_times_parse_state(): Loaded 0/0 values from 0 lines in circuit time histogram
+Jan 14 19:12:36.000 [debug] circuit_build_times_disabled(): CircuitBuildTime learning is not disabled. Consensus=0, Config=0, AuthDir=0, StateFile=0
+Jan 14 19:12:36.000 [info] or_state_save(): Saved state to "/root/.tor/state"
+Jan 14 19:12:36.000 [info] read_file_to_str(): Could not open "/root/.tor/router-stability": No such file or directory
+Jan 14 19:12:36.000 [info] cell_ewma_set_scale_factor(): Disabled cell_ewma algorithm because of value in Default value
+Jan 14 19:12:36.000 [notice] Parsing GEOIP IPv4 file /usr/local/share/tor/geoip.
+Jan 14 19:12:36.000 [notice] Parsing GEOIP IPv6 file /usr/local/share/tor/geoip6.
+Jan 14 19:12:36.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Jan 14 19:12:36.000 [info] mark_my_descriptor_dirty(): Decided to publish new relay descriptor: config change
+Jan 14 19:12:36.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Jan 14 19:12:36.000 [info] crypto_global_init(): OpenSSL version matches version from headers (100010bf: OpenSSL 1.0.1k 8 Jan 2015).
+Jan 14 19:12:36.000 [info] crypto_global_init(): NOT using OpenSSL engine support.
+Jan 14 19:12:36.000 [info] evaluate_evp_for_aes(): This version of OpenSSL has a known-good EVP counter-mode implementation. Using it.
+Jan 14 19:12:36.000 [info] crypto_strongest_rand(): Reading entropy from "/dev/urandom"
+Jan 14 19:12:36.000 [info] configure_nameservers(): Parsing resolver configuration in '/etc/resolv.conf'
+Jan 14 19:12:36.000 [info] eventdns: Parsing resolv.conf file /etc/resolv.conf
+Jan 14 19:12:36.000 [info] eventdns: Added nameserver 8.8.8.8:53 as 0x7fddc86938c0
+Jan 14 19:12:36.000 [info] eventdns: Added nameserver 8.8.4.4:53 as 0x7fddc8693aa0
+Jan 14 19:12:36.000 [info] eventdns: Setting maximum allowed timeouts to 3
+Jan 14 19:12:36.000 [info] eventdns: Setting timeout to 5
+Jan 14 19:12:36.000 [info] check_private_dir(): Creating directory /root/.tor/keys
+Jan 14 19:12:36.000 [info] init_keys(): Reading/making identity key "/root/.tor/keys/secret_id_key"...
+Jan 14 19:12:36.000 [info] init_key_from_file(): No key found in "/root/.tor/keys/secret_id_key"; generating fresh key.
+Jan 14 19:12:36.000 [info] init_key_from_file(): Generated key seems valid
+Jan 14 19:12:36.000 [info] init_keys(): Reading/making onion key "/root/.tor/keys/secret_onion_key"...
+Jan 14 19:12:36.000 [info] init_key_from_file(): No key found in "/root/.tor/keys/secret_onion_key"; generating fresh key.
+Jan 14 19:12:36.000 [info] init_key_from_file(): Generated key seems valid
+Jan 14 19:12:36.000 [info] mark_my_descriptor_dirty(): Decided to publish new relay descriptor: set onion key
+Jan 14 19:12:36.000 [info] init_curve25519_keypair_from_file(): No key found in "/root/.tor/keys/secret_onion_key_ntor"; generating fresh key.
+Jan 14 19:12:36.000 [info] crypto_strongest_rand(): Reading entropy from "/dev/urandom"
+Jan 14 19:12:36.000 [info] tor_tls_init(): OpenSSL OpenSSL 1.0.1k 8 Jan 2015 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+Jan 14 19:12:37.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:37.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:37.000 [info] router_pick_published_address(): Could not determine our address locally. Checking if directory headers provide any hints.
+Jan 14 19:12:37.000 [info] router_pick_published_address(): No hints from directory headers either. Will try again later.
+Jan 14 19:12:37.000 [info] init_keys(): Dumping fingerprint to "/root/.tor/fingerprint"...
+Jan 14 19:12:37.000 [notice] Your Tor server's identity key fingerprint is 'Unnamed 0078F28CA92C48C07BF05C7F84A4EF65F1FD48A4'
+Jan 14 19:12:37.000 [debug] mp_pool_new(): Capacity is 244, item size is 536, alloc size is 130784
+Jan 14 19:12:37.000 [info] Bootstrapped 0%: Starting.
+Jan 14 19:12:37.000 [info] read_file_to_str(): Could not open "/root/.tor/cached-certs": No such file or directory
+Jan 14 19:12:37.000 [info] read_file_to_str(): Could not open "/root/.tor/cached-consensus": No such file or directory
+Jan 14 19:12:37.000 [info] read_file_to_str(): Could not open "/root/.tor/unverified-consensus": No such file or directory
+Jan 14 19:12:37.000 [info] read_file_to_str(): Could not open "/root/.tor/cached-microdesc-consensus": No such file or directory
+Jan 14 19:12:37.000 [info] read_file_to_str(): Could not open "/root/.tor/unverified-microdesc-consensus": No such file or directory
+Jan 14 19:12:37.000 [info] tor_mmap_file(): Could not open "/root/.tor/cached-microdescs" for mmap(): No such file or directory
+Jan 14 19:12:37.000 [info] read_file_to_str(): Could not open "/root/.tor/cached-microdescs.new": No such file or directory
+Jan 14 19:12:37.000 [info] microdesc_cache_reload(): Reloaded microdescriptor cache. Found 0 descriptors.
+Jan 14 19:12:37.000 [info] tor_mmap_file(): Could not open "/root/.tor/cached-descriptors" for mmap(): No such file or directory
+Jan 14 19:12:37.000 [info] tor_mmap_file(): Could not open "/root/.tor/cached-extrainfo" for mmap(): No such file or directory
+Jan 14 19:12:37.000 [info] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Jan 14 19:12:37.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:37.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:37.000 [info] router_pick_published_address(): Could not determine our address locally. Checking if directory headers provide any hints.
+Jan 14 19:12:37.000 [info] router_pick_published_address(): No hints from directory headers either. Will try again later.
+Jan 14 19:12:37.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:37.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:37.000 [info] router_pick_published_address(): Could not determine our address locally. Checking if directory headers provide any hints.
+Jan 14 19:12:37.000 [info] router_pick_published_address(): No hints from directory headers either. Will try again later.
+Jan 14 19:12:37.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:37.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:37.000 [info] router_pick_published_address(): Could not determine our address locally. Checking if directory headers provide any hints.
+Jan 14 19:12:37.000 [info] router_pick_published_address(): No hints from directory headers either. Will try again later.
+Jan 14 19:12:37.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:37.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:37.000 [info] router_pick_published_address(): Could not determine our address locally. Checking if directory headers provide any hints.
+Jan 14 19:12:37.000 [info] router_pick_published_address(): No hints from directory headers either. Will try again later.
+Jan 14 19:12:37.000 [debug] directory_initiate_command_rend(): anonymized 0, use_begindir 0.
+Jan 14 19:12:37.000 [debug] directory_initiate_command_rend(): Initiating server descriptor fetch
+Jan 14 19:12:37.000 [debug] connection_connect(): Connecting to [scrubbed]:9131.
+Jan 14 19:12:37.000 [debug] connection_connect(): Connection to [scrubbed]:9131 in progress (sock 13).
+Jan 14 19:12:37.000 [debug] connection_add_impl(): new conn type Directory, socket 13, address 128.31.0.39, n_conns 4.
+Jan 14 19:12:37.000 [debug] spawn_cpuworker(): just spawned a cpu worker.
+Jan 14 19:12:37.000 [debug] connection_add_impl(): new conn type CPU worker, socket 14, address localhost, n_conns 5.
+Jan 14 19:12:37.000 [debug] spawn_cpuworker(): just spawned a cpu worker.
+Jan 14 19:12:37.000 [debug] connection_add_impl(): new conn type CPU worker, socket 16, address localhost, n_conns 6.
+Jan 14 19:12:37.000 [debug] spawn_cpuworker(): just spawned a cpu worker.
+Jan 14 19:12:37.000 [debug] connection_add_impl(): new conn type CPU worker, socket 18, address localhost, n_conns 7.
+Jan 14 19:12:37.000 [debug] spawn_cpuworker(): just spawned a cpu worker.
+Jan 14 19:12:37.000 [debug] connection_add_impl(): new conn type CPU worker, socket 20, address localhost, n_conns 8.
+Jan 14 19:12:37.000 [debug] conn_write_callback(): socket 13 wants to write.
+Jan 14 19:12:37.000 [debug] connection_dir_finished_connecting(): Dir connection to router 128.31.0.39:9131 established.
+Jan 14 19:12:37.000 [debug] connection_dir_finished_flushing(): client finished sending command.
+Jan 14 19:12:37.000 [debug] connection_bucket_refill_helper(): global_write_bucket now 1073741824.
+Jan 14 19:12:37.000 [debug] conn_read_callback(): socket 13 wants to read.
+Jan 14 19:12:37.000 [debug] read_to_chunk(): Read 1056 bytes. 1056 on inbuf.
+Jan 14 19:12:37.000 [debug] connection_dir_process_inbuf(): Got data, not eof. Leaving on inbuf.
+Jan 14 19:12:37.000 [debug] conn_read_callback(): socket 13 wants to read.
+Jan 14 19:12:37.000 [debug] read_to_chunk(): Encountered eof on fd 13
+Jan 14 19:12:37.000 [debug] fetch_from_buf_http(): headerlen 197, bodylen 859.
+Jan 14 19:12:37.000 [debug] connection_dir_client_reached_eof(): Received response from directory server '128.31.0.39:9131': 200 "OK" (purpose: 6)
+Jan 14 19:12:37.000 [debug] router_new_address_suggestion(): Got X-Your-Address-Is: 83.87.156.188.
+Jan 14 19:12:37.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:37.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:37.000 [notice] Guessed our IP address as 83.87.156.188 (source: 128.31.0.39).
+Jan 14 19:12:37.000 [info] mark_my_descriptor_dirty(): Decided to publish new relay descriptor: IP address changed
+Jan 14 19:12:37.000 [debug] connection_dir_client_reached_eof(): Time on received directory is within tolerance; we are 0 seconds skewed.  (That's okay.)
+Jan 14 19:12:37.000 [info] connection_dir_client_reached_eof(): Received server info (size 1211) from server '128.31.0.39:9131'
+Jan 14 19:12:37.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:37.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:37.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:37.000 [info] router_pick_published_address(): Could not determine our address locally. Checking if directory headers provide any hints.
+Jan 14 19:12:37.000 [info] router_pick_published_address(): Success: chose address '83.87.156.188'.
+Jan 14 19:12:37.000 [info] router_rebuild_descriptor(): Rebuilding relay descriptor
+Jan 14 19:12:37.000 [notice] Current router identity_digest is '[scrubbed]'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'reject *6:*'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'reject private:*'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'reject 83.87.156.188:*'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'reject *:25'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'reject *:119'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'reject *:135-139'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'reject *:445'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'reject *:563'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'reject *:1214'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'reject *:4661-4666'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'reject *:6346-6429'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'reject *:6699'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'reject *:6881-6999'
+Jan 14 19:12:37.000 [debug] parse_addr_policy(): Adding new entry 'accept *:*'
+Jan 14 19:12:37.000 [info] extrainfo_dump_to_string(): Adding stats to extra-info descriptor.
+Jan 14 19:12:37.000 [debug] conn_close_if_marked(): Cleaning up connection (fd 13).
+Jan 14 19:12:37.000 [debug] connection_remove(): removing socket 13 (type Directory), n_conns now 8
+Jan 14 19:12:37.000 [debug] connection_free_(): closing fd 13.
+Jan 14 19:12:37.000 [debug] connection_bucket_refill_helper(): global_read_bucket now 1073741824.
+Jan 14 19:12:38.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:38.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:38.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:38.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:38.000 [info] router_pick_published_address(): Could not determine our address locally. Checking if directory headers provide any hints.
+Jan 14 19:12:38.000 [info] router_pick_published_address(): Success: chose address '83.87.156.188'.
+Jan 14 19:12:38.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:38.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:38.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:38.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:38.000 [info] check_descriptor_ipaddress_changed(): options->Address didn't resolve into an IP.
+Jan 14 19:12:38.000 [info] update_consensus_networkstatus_downloads(): Launching ns networkstatus consensus download.
+Jan 14 19:12:38.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:38.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:38.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:38.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:38.000 [info] router_pick_published_address(): Could not determine our address locally. Checking if directory headers provide any hints.
+Jan 14 19:12:38.000 [info] router_pick_published_address(): Success: chose address '83.87.156.188'.
+Jan 14 19:12:38.000 [info] router_pick_directory_server(): No reachable router entries for dirservers. Trying them all again.
+Jan 14 19:12:38.000 [info] directory_pick_generic_dirserver(): No router found for consensus network-status fetch; falling back to dirserver list.
+Jan 14 19:12:38.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:38.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:38.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:38.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:38.000 [info] router_pick_published_address(): Could not determine our address locally. Checking if directory headers provide any hints.
+Jan 14 19:12:38.000 [info] router_pick_published_address(): Success: chose address '83.87.156.188'.
+Jan 14 19:12:38.000 [debug] directory_initiate_command_rend(): anonymized 0, use_begindir 1.
+Jan 14 19:12:38.000 [debug] directory_initiate_command_rend(): Initiating consensus network-status fetch
+Jan 14 19:12:38.000 [info] connection_ap_make_link(): Making internal direct tunnel to [scrubbed]:443 ...
+Jan 14 19:12:38.000 [debug] connection_add_impl(): new conn type Socks, socket -1, address (Tor_internal), n_conns 8.
+Jan 14 19:12:38.000 [debug] circuit_get_open_circ_or_launch(): considering 1, $CF6D0AAFB385BE71B8E111FC5CFF4B47923733BC
+Jan 14 19:12:38.000 [debug] onion_pick_cpath_exit(): Launching a one-hop circuit for dir tunnel.
+Jan 14 19:12:38.000 [info] onion_pick_cpath_exit(): Using requested exit node '$CF6D0AAFB385BE71B8E111FC5CFF4B47923733BC~CF6D0AAFB385BE71B8E at 154.35.32.5'
+Jan 14 19:12:38.000 [debug] onion_extend_cpath(): Path is 0 long; we want 1
+Jan 14 19:12:38.000 [debug] onion_extend_cpath(): Chose router $CF6D0AAFB385BE71B8E111FC5CFF4B47923733BC~CF6D0AAFB385BE71B8E at 154.35.32.5 for hop 1 (exit is CF6D0AAFB385BE71B8E111FC5CFF4B47923733BC)
+Jan 14 19:12:38.000 [debug] onion_extend_cpath(): Path is complete: 1 steps long
+Jan 14 19:12:38.000 [debug] circuit_handle_first_hop(): Looking for firsthop '154.35.32.5:443'
+Jan 14 19:12:38.000 [info] circuit_handle_first_hop(): Next router is [scrubbed]: Not connected. Connecting.
+Jan 14 19:12:38.000 [notice] Bootstrapped 5%: Connecting to directory server.
+Jan 14 19:12:38.000 [debug] channel_tls_connect(): In channel_tls_connect() for channel 0x7fddc86b1620 (global id 0)
+Jan 14 19:12:38.000 [debug] channel_set_identity_digest(): Setting remote endpoint digest on channel 0x7fddc86b1620 with global ID 0 to digest CF6D0AAFB385BE71B8E111FC5CFF4B47923733BC
+Jan 14 19:12:38.000 [debug] connection_connect(): Connecting to [scrubbed]:443.
+Jan 14 19:12:38.000 [debug] connection_connect(): Connection to [scrubbed]:443 in progress (sock 13).
+Jan 14 19:12:38.000 [debug] connection_add_impl(): new conn type OR, socket 13, address 154.35.32.5, n_conns 9.
+Jan 14 19:12:38.000 [debug] channel_tls_connect(): Got orconn 0x7fddc86b07e0 for channel with global id 0
+Jan 14 19:12:38.000 [debug] channel_register(): Registering channel 0x7fddc86b1620 (ID 0) in state opening (1) with digest CF6D0AAFB385BE71B8E111FC5CFF4B47923733BC
+Jan 14 19:12:38.000 [debug] channel_add_to_digest_map(): Added channel 0x7fddc86b1620 (global ID 0) to identity map in state opening (1) with digest CF6D0AAFB385BE71B8E111FC5CFF4B47923733BC
+Jan 14 19:12:38.000 [debug] channel_set_cell_handlers(): Setting cell_handler callback for channel 0x7fddc86b1620 to 0x7fddc62b1090
+Jan 14 19:12:38.000 [debug] channel_set_cell_handlers(): Setting var_cell_handler callback for channel 0x7fddc86b1620 to 0x7fddc62b0f50
+Jan 14 19:12:38.000 [debug] circuit_handle_first_hop(): connecting in progress (or finished). Good.
+Jan 14 19:12:38.000 [info] connection_ap_make_link(): ... application connection created and linked.
+Jan 14 19:12:38.000 [debug] connection_add_impl(): new conn type Directory, socket -1, address 154.35.32.5, n_conns 10.
+Jan 14 19:12:38.000 [info] directory_send_command(): Downloading consensus from 154.35.32.5:443 using /tor/status-vote/current/consensus/14C131+27B6B5+49015F+585769+805509+D586D1+E8A9C4+ED03BB+EFCBE7.z
+Jan 14 19:12:38.000 [info] update_consensus_networkstatus_downloads(): Launching microdesc networkstatus consensus download.
+Jan 14 19:12:38.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:38.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:38.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:38.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:38.000 [info] router_pick_published_address(): Could not determine our address locally. Checking if directory headers provide any hints.
+Jan 14 19:12:38.000 [info] router_pick_published_address(): Success: chose address '83.87.156.188'.
+Jan 14 19:12:38.000 [info] router_pick_directory_server(): No reachable router entries for dirservers. Trying them all again.
+Jan 14 19:12:38.000 [info] directory_pick_generic_dirserver(): No router found for consensus network-status fetch; falling back to dirserver list.
+Jan 14 19:12:38.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:38.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:38.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:38.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:38.000 [info] router_pick_published_address(): Could not determine our address locally. Checking if directory headers provide any hints.
+Jan 14 19:12:38.000 [info] router_pick_published_address(): Success: chose address '83.87.156.188'.
+Jan 14 19:12:38.000 [debug] directory_initiate_command_rend(): anonymized 0, use_begindir 1.
+Jan 14 19:12:38.000 [debug] directory_initiate_command_rend(): Initiating consensus network-status fetch
+Jan 14 19:12:38.000 [info] connection_ap_make_link(): Making internal direct tunnel to [scrubbed]:443 ...
+Jan 14 19:12:38.000 [debug] connection_add_impl(): new conn type Socks, socket -1, address (Tor_internal), n_conns 11.
+Jan 14 19:12:38.000 [debug] circuit_get_open_circ_or_launch(): considering 1, $F2044413DAC2E02E3D6BCF4735A19BCA1DE97281
+Jan 14 19:12:38.000 [debug] onion_pick_cpath_exit(): Launching a one-hop circuit for dir tunnel.
+Jan 14 19:12:38.000 [info] onion_pick_cpath_exit(): Using requested exit node '$F2044413DAC2E02E3D6BCF4735A19BCA1DE97281~F2044413DAC2E02E3D6 at 212.112.245.170'
+Jan 14 19:12:38.000 [debug] onion_extend_cpath(): Path is 0 long; we want 1
+Jan 14 19:12:38.000 [debug] onion_extend_cpath(): Chose router $F2044413DAC2E02E3D6BCF4735A19BCA1DE97281~F2044413DAC2E02E3D6 at 212.112.245.170 for hop 1 (exit is F2044413DAC2E02E3D6BCF4735A19BCA1DE97281)
+Jan 14 19:12:38.000 [debug] onion_extend_cpath(): Path is complete: 1 steps long
+Jan 14 19:12:38.000 [debug] circuit_handle_first_hop(): Looking for firsthop '212.112.245.170:443'
+Jan 14 19:12:38.000 [info] circuit_handle_first_hop(): Next router is [scrubbed]: Not connected. Connecting.
+Jan 14 19:12:38.000 [debug] channel_tls_connect(): In channel_tls_connect() for channel 0x7fddc86b4c40 (global id 1)
+Jan 14 19:12:38.000 [debug] channel_set_identity_digest(): Setting remote endpoint digest on channel 0x7fddc86b4c40 with global ID 1 to digest F2044413DAC2E02E3D6BCF4735A19BCA1DE97281
+Jan 14 19:12:38.000 [debug] connection_connect(): Connecting to [scrubbed]:443.
+Jan 14 19:12:38.000 [debug] connection_connect(): Connection to [scrubbed]:443 in progress (sock 22).
+Jan 14 19:12:38.000 [debug] connection_add_impl(): new conn type OR, socket 22, address 212.112.245.170, n_conns 12.
+Jan 14 19:12:38.000 [debug] channel_tls_connect(): Got orconn 0x7fddc86b4e20 for channel with global id 1
+Jan 14 19:12:38.000 [debug] channel_register(): Registering channel 0x7fddc86b4c40 (ID 1) in state opening (1) with digest F2044413DAC2E02E3D6BCF4735A19BCA1DE97281
+Jan 14 19:12:38.000 [debug] channel_add_to_digest_map(): Added channel 0x7fddc86b4c40 (global ID 1) to identity map in state opening (1) with digest F2044413DAC2E02E3D6BCF4735A19BCA1DE97281
+Jan 14 19:12:38.000 [debug] channel_set_cell_handlers(): Setting cell_handler callback for channel 0x7fddc86b4c40 to 0x7fddc62b1090
+Jan 14 19:12:38.000 [debug] channel_set_cell_handlers(): Setting var_cell_handler callback for channel 0x7fddc86b4c40 to 0x7fddc62b0f50
+Jan 14 19:12:38.000 [debug] circuit_handle_first_hop(): connecting in progress (or finished). Good.
+Jan 14 19:12:38.000 [info] connection_ap_make_link(): ... application connection created and linked.
+Jan 14 19:12:38.000 [debug] connection_add_impl(): new conn type Directory, socket -1, address 212.112.245.170, n_conns 13.
+Jan 14 19:12:38.000 [info] directory_send_command(): Downloading consensus from 212.112.245.170:443 using /tor/status-vote/current/consensus-microdesc/14C131+27B6B5+49015F+585769+805509+D586D1+E8A9C4+ED03BB+EFCBE7.z
+Jan 14 19:12:38.000 [info] or_state_save(): Saved state to "/root/.tor/state"
+Jan 14 19:12:38.000 [debug] conn_read_callback(): socket -1 wants to read.
+Jan 14 19:12:38.000 [info] connection_edge_process_inbuf(): data from edge while in 'waiting for circuit' state. Leaving it on buffer.
+Jan 14 19:12:38.000 [info] connection_edge_process_inbuf(): data from edge while in 'waiting for circuit' state. Leaving it on buffer.
+Jan 14 19:12:38.000 [debug] connection_dir_finished_flushing(): client finished sending command.
+Jan 14 19:12:38.000 [debug] conn_read_callback(): socket -1 wants to read.
+Jan 14 19:12:38.000 [info] connection_edge_process_inbuf(): data from edge while in 'waiting for circuit' state. Leaving it on buffer.
+Jan 14 19:12:38.000 [info] connection_edge_process_inbuf(): data from edge while in 'waiting for circuit' state. Leaving it on buffer.
+Jan 14 19:12:38.000 [debug] connection_dir_finished_flushing(): client finished sending command.
+Jan 14 19:12:38.000 [debug] conn_write_callback(): socket 13 wants to write.
+Jan 14 19:12:38.000 [debug] connection_or_finished_connecting(): OR connect() to router at 154.35.32.5:443 finished.
+Jan 14 19:12:38.000 [notice] Bootstrapped 10%: Finishing handshake with directory server.
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): List was: ECDHE-ECDSA-AES256-SHA:ECDHE-RSA-AES256-SHA:DHE-RSA-CAMELLIA256-SHA:DHE-DSS-CAMELLIA256-SHA:DHE-RSA-AES256-SHA:DHE-DSS-AES256-SHA:ECDH-RSA-AES256-SHA:ECDH-ECDSA-AES256-SHA:CAMELLIA256-SHA:AES256-SHA:ECDHE-ECDSA-RC4-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-RC4-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-CAMELLIA128-SHA:DHE-DSS-CAMELLIA128-SHA:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA:ECDH-RSA-RC4-SHA:ECDH-RSA-AES128-SHA:ECDH-ECDSA-RC4-SHA:ECDH-ECDSA-AES128-SHA:SEED-SHA:CAMELLIA128-SHA:RC4-MD5:RC4-SHA:AES128-SHA:ECDHE-ECDSA-DES-CBC3-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:EDH-DSS-DES-CBC3-SHA:ECDH-RSA-DES-CBC3-SHA:ECDH-ECDSA-DES-CBC3-SHA:DES-CBC3-SHA:!SSLv2
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 0: 300c00a ECDHE-ECDSA-AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 1: 300c014 ECDHE-RSA-AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 2: 3000088 DHE-RSA-CAMELLIA256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 3: 3000087 DHE-DSS-CAMELLIA256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 4: 3000039 DHE-RSA-AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 5: 3000038 DHE-DSS-AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 6: 300c00f ECDH-RSA-AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 7: 300c005 ECDH-ECDSA-AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 8: 3000084 CAMELLIA256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 9: 3000035 AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 10: 300c007 ECDHE-ECDSA-RC4-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 11: 300c009 ECDHE-ECDSA-AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 12: 300c011 ECDHE-RSA-RC4-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 13: 300c013 ECDHE-RSA-AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 14: 3000045 DHE-RSA-CAMELLIA128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 15: 3000044 DHE-DSS-CAMELLIA128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 16: 3000033 DHE-RSA-AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 17: 3000032 DHE-DSS-AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 18: 300c00c ECDH-RSA-RC4-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 19: 300c00e ECDH-RSA-AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 20: 300c002 ECDH-ECDSA-RC4-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 21: 300c004 ECDH-ECDSA-AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 22: 3000096 SEED-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 23: 3000041 CAMELLIA128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 24: 3000004 RC4-MD5
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 25: 3000005 RC4-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 26: 300002f AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 27: 300c008 ECDHE-ECDSA-DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 28: 300c012 ECDHE-RSA-DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 29: 3000016 EDH-RSA-DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 30: 3000013 EDH-DSS-DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 31: 300c00d ECDH-RSA-DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 32: 300c003 ECDH-ECDSA-DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Cipher 33: 300000a DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDHE-ECDSA-AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDHE-RSA-AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher DHE-RSA-CAMELLIA256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher DHE-DSS-CAMELLIA256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher DHE-RSA-AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher DHE-DSS-AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDH-RSA-AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDH-ECDSA-AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher CAMELLIA256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher AES256-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDHE-ECDSA-RC4-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDHE-ECDSA-AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDHE-RSA-RC4-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDHE-RSA-AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher DHE-RSA-CAMELLIA128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher DHE-DSS-CAMELLIA128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher DHE-RSA-AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher DHE-DSS-AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDH-RSA-RC4-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDH-RSA-AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDH-ECDSA-RC4-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDH-ECDSA-AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher SEED-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher CAMELLIA128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher RC4-MD5
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher RC4-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher AES128-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDHE-ECDSA-DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDHE-RSA-DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher EDH-RSA-DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher EDH-DSS-DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDH-RSA-DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher ECDH-ECDSA-DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Inserting fake SSL_RSA_FIPS_WITH_3DES_EDE_CBC_SHA
+Jan 14 19:12:38.000 [debug] rectify_client_ciphers(): Found cipher DES-CBC3-SHA
+Jan 14 19:12:38.000 [debug] connection_tls_start_handshake(): starting TLS handshake on fd 13
+Jan 14 19:12:38.000 [debug] tor_tls_handshake(): About to call SSL_connect on 0x7fddc86b0ea0 (before/accept initialization)
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state before/connect initialization [type=16,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state before/connect initialization [type=4097,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv2/v3 write client hello A [type=4097,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv2/v3 read server hello A [type=4098,val=-1].
+Jan 14 19:12:38.000 [debug] tor_tls_handshake(): After call, 0x7fddc86b0ea0 was in state SSLv2/v3 read server hello A
+Jan 14 19:12:38.000 [debug] connection_tls_continue_handshake(): wanted read
+Jan 14 19:12:38.000 [debug] tor_tls_handshake(): About to call SSL_connect on 0x7fddc86b0ea0 (SSLv2/v3 read server hello A)
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv2/v3 read server hello A [type=4098,val=-1].
+Jan 14 19:12:38.000 [debug] connection_tls_continue_handshake(): wanted read
+Jan 14 19:12:38.000 [debug] conn_read_callback(): socket 13 wants to read.
+Jan 14 19:12:38.000 [debug] tor_tls_handshake(): About to call SSL_connect on 0x7fddc86b0ea0 (SSLv2/v3 read server hello A)
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv3 read server hello A [type=4097,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv3 read server certificate A [type=4097,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv3 read server key exchange A [type=4097,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv3 read server done A [type=4097,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv3 write client key exchange A [type=4097,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv3 write change cipher spec A [type=4097,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv3 write finished A [type=4097,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv3 flush data [type=4097,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv3 read finished A [type=4098,val=-1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv3 read finished A [type=4098,val=-1].
+Jan 14 19:12:38.000 [debug] tor_tls_handshake(): After call, 0x7fddc86b0ea0 was in state SSLv3 read finished A
+Jan 14 19:12:38.000 [debug] connection_tls_continue_handshake(): wanted read
+Jan 14 19:12:38.000 [debug] conn_read_callback(): socket 13 wants to read.
+Jan 14 19:12:38.000 [debug] tor_tls_handshake(): About to call SSL_connect on 0x7fddc86b0ea0 (SSLv3 read finished A)
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSLv3 read finished A [type=4097,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSL negotiation finished successfully [type=32,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_debug_state_callback(): SSL 0x7fddc86b66a0 is now in state SSL negotiation finished successfully [type=4098,val=1].
+Jan 14 19:12:38.000 [debug] tor_tls_handshake(): After call, 0x7fddc86b0ea0 was in state SSL negotiation finished successfully
+Jan 14 19:12:38.000 [debug] tor_tls_finish_handshake(): Server sent back a single certificate; looks like a v2 handshake on 0x7fddc86b0ea0.
+Jan 14 19:12:38.000 [info] connection_tls_continue_handshake(): Client got a v3 cert!  Moving on to v3 handshake with ciphersuite ECDHE-RSA-AES256-SHA
+Jan 14 19:12:38.000 [debug] connection_or_process_cells_from_inbuf(): 13: starting, inbuf_datalen 0 (0 pending in tls object).
+Jan 14 19:12:38.000 [debug] conn_write_callback(): socket 13 wants to write.
+Jan 14 19:12:38.000 [debug] flush_chunk_tls(): flushed 9 bytes, 0 ready to flush, 0 remain.
+Jan 14 19:12:38.000 [debug] connection_handle_write_impl(): After TLS write of 9: 818 read, 430 written
+Jan 14 19:12:38.000 [debug] connection_bucket_refill_helper(): global_read_bucket now 1073741824.
+Jan 14 19:12:38.000 [debug] connection_bucket_refill_helper(): global_write_bucket now 1073741824.
+Jan 14 19:12:38.000 [debug] connection_bucket_refill_helper(): global_relayed_read_bucket now 1073741824.
+Jan 14 19:12:38.000 [debug] connection_bucket_refill_helper(): global_relayed_write_bucket now 1073741824.
+Jan 14 19:12:49.000 [debug] resolve_my_address(): Guessed local host name as '12d7010f8c00'
+Jan 14 19:12:49.000 [info] resolve_my_address(): Guessed local hostname '12d7010f8c00' resolves to a private IP address (172.17.0.60). Trying something else.
+Jan 14 19:12:49.000 [info] resolve_my_address(): Interface IP address '172.17.0.60' is a private address too. Ignoring.
+Jan 14 19:12:49.000 [info] resolve_my_address(): Address '12d7010f8c00' resolves to private IP address '172.17.0.60'. Tor servers that use the default DirAuthorities must have public IP addresses.
+Jan 14 19:12:49.000 [info] router_pick_published_address(): Could not determine our address locally. Checking if directory headers provide any hints.
+Jan 14 19:12:49.000 [info] router_pick_published_address(): Success: chose address '83.87.156.188'.
+Jan 14 19:12:49.000 [notice] Interrupt: we have stopped accepting new connections, and will shut down in 30 seconds. Interrupt again to exit now.
+Jan 14 19:12:50.000 [debug] conn_close_if_marked(): Cleaning up connection (fd 6).
+Jan 14 19:12:50.000 [debug] connection_remove(): removing socket 6 (type Socks listener), n_conns now 13
+Jan 14 19:12:50.000 [debug] connection_free_(): closing fd 6.
+Jan 14 19:12:50.000 [debug] conn_close_if_marked(): Cleaning up connection (fd 8).
+Jan 14 19:12:50.000 [debug] connection_remove(): removing socket 8 (type Directory listener), n_conns now 12
+Jan 14 19:12:50.000 [debug] connection_free_(): closing fd 8.
+Jan 14 19:12:50.000 [debug] conn_close_if_marked(): Cleaning up connection (fd 7).
+Jan 14 19:12:50.000 [debug] connection_remove(): removing socket 7 (type OR listener), n_conns now 11
+Jan 14 19:12:50.000 [debug] connection_free_(): closing fd 7.
+Jan 14 19:12:50.000 [info] or_state_save(): Saved state to "/root/.tor/state"
+Jan 14 19:12:52.000 [notice] SIGINT received a second time; exiting now.
+Jan 14 19:12:52.000 [info] or_state_save(): Saved state to "/root/.tor/state"
+Jan 14 19:12:52.000 [debug] channel_tls_free_all(): Shutting down TLS channels...
+Jan 14 19:12:52.000 [debug] channel_tls_free_all(): Done shutting down TLS channels
+Jan 14 19:12:52.000 [debug] channel_free_all(): Shutting down channels...
+Jan 14 19:12:52.000 [debug] channel_free_list(): Cleaning up channel 0x7fddc86b1620 (global ID 0) in state opening (1)
+Jan 14 19:12:52.000 [debug] channel_remove_from_digest_map(): Removed channel 0x7fddc86b1620 (global ID 0) from identity map in state opening (1) with digest CF6D0AAFB385BE71B8E111FC5CFF4B47923733BC
+Jan 14 19:12:52.000 [debug] channel_mark_for_close(): Closing channel 0x7fddc86b1620 (global ID 0) by request
+Jan 14 19:12:52.000 [debug] channel_change_state(): Changing state of channel 0x7fddc86b1620 (global ID 0) from "opening" to "closing"
+Jan 14 19:12:52.000 [debug] connection_mark_for_close_internal_(): Calling connection_mark_for_close_internal_() on an OR conn at src/or/connection_or.c:1172
+Jan 14 19:12:52.000 [debug] channel_force_free(): Force-freeing channel 0 at 0x7fddc86b1620
+Jan 14 19:12:52.000 [debug] channel_clear_remote_end(): Clearing remote endpoint identity on channel 0x7fddc86b1620 with global ID 0
+Jan 14 19:12:52.000 [debug] channel_free_list(): Cleaning up channel 0x7fddc86b4c40 (global ID 1) in state opening (1)
+Jan 14 19:12:52.000 [debug] channel_remove_from_digest_map(): Removed channel 0x7fddc86b4c40 (global ID 1) from identity map in state opening (1) with digest F2044413DAC2E02E3D6BCF4735A19BCA1DE97281
+Jan 14 19:12:52.000 [debug] channel_mark_for_close(): Closing channel 0x7fddc86b4c40 (global ID 1) by request
+Jan 14 19:12:52.000 [debug] channel_change_state(): Changing state of channel 0x7fddc86b4c40 (global ID 1) from "opening" to "closing"
+Jan 14 19:12:52.000 [debug] connection_mark_for_close_internal_(): Calling connection_mark_for_close_internal_() on an OR conn at src/or/connection_or.c:1172
+Jan 14 19:12:52.000 [debug] channel_force_free(): Force-freeing channel 1 at 0x7fddc86b4c40
+Jan 14 19:12:52.000 [debug] channel_clear_remote_end(): Clearing remote endpoint identity on channel 0x7fddc86b4c40 with global ID 1
+Jan 14 19:12:52.000 [debug] channel_free_all(): Freeing channel_identity_map
+Jan 14 19:12:52.000 [debug] channel_free_all(): Done cleaning up after channels
+Jan 14 19:12:52.000 [info] connection_free_(): Freeing linked Directory connection [client reading] with 0 bytes on inbuf, 0 on outbuf.
+Jan 14 19:12:52.000 [info] connection_free_(): Freeing linked Socks connection [waiting for circuit] with 153 bytes on inbuf, 0 on outbuf.
+Jan 14 19:12:52.000 [debug] connection_free_(): closing fd 22.
+Jan 14 19:12:52.000 [debug] connection_free_(): closing fd 20.
+Jan 14 19:12:52.000 [debug] connection_free_(): closing fd 14.
+Jan 14 19:12:52.000 [info] cpuworker_main(): read request failed. Exiting.
+Jan 14 19:12:52.000 [info] cpuworker_main(): read request failed. Exiting.
+Jan 14 19:12:52.000 [debug] connection_free_(): closing fd 16.
+Jan 14 19:12:52.000 [debug] connection_free_(): closing fd 18.
+Jan 14 19:12:52.000 [info] connection_free_(): Freeing linked Socks connection [waiting for circuit] with 139 bytes on inbuf, 0 on outbuf.
+Jan 14 19:12:52.000 [info] cpuworker_main(): read request failed. Exiting.
+Jan 14 19:12:52.000 [info] cpuworker_main(): read request failed. Exiting.
+Jan 14 19:12:52.000 [debug] connection_free_(): closing fd 13.
+Jan 14 19:12:52.000 [info] connection_free_(): Freeing linked Directory connection [client reading] with 0 bytes on inbuf, 0 on outbuf.
+Jan 14 19:12:52.000 [info] buf_shrink_freelists(): Cleaned freelist for 4096-byte chunks: original length 3, kept 0, dropped 3.
+Jan 14 19:12:52.000 [info] buf_shrink_freelists(): Cleaned freelist for 8192-byte chunks: original length 1, kept 0, dropped 1.
+Jan 14 19:12:52.000 [info] buf_shrink_freelists(): Cleaned freelist for 16384-byte chunks: original length 0, kept 0, dropped 0.
+Jan 14 19:12:52.000 [info] buf_shrink_freelists(): Cleaned freelist for 32768-byte chunks: original length 0, kept 0, dropped 0.
+Jan 14 19:12:52.000 [info] tor_lockfile_unlock(): Unlocking "/root/.tor/lock"
