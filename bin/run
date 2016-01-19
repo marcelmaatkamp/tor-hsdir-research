@@ -2,4 +2,6 @@
 docker run -ti -P \
   -v $PWD/volume/tor:/etc/tor \
   -v $PWD/volume/tor/log:/var/log/tor \
+  -v $PWD/volume/tor/tor:/root/.tor
+  -p 9001:9001 -p 9002:9002 \
   marcelmaatkamp/alpine-build-tor-hsresearch
